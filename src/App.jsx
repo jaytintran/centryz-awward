@@ -2,8 +2,8 @@ import React from "react";
 
 const App = () => {
 	return (
-		<main>
-			<h1 className="text-3xl font-bold underline text-lime-800">
+		<main className="bg-black-default h-[100dvh]">
+			<h1 className="text-5xl font-robert-medium text-violet-300">
 				Welcome to Centryz
 			</h1>
 		</main>
