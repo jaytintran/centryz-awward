@@ -1,11 +1,12 @@
 import React from "react";
+import Hero from "./components/Hero";
 
 const App = () => {
 	return (
-		<main className="bg-black-default h-[100dvh]">
-			<h1 className="text-5xl font-robert-medium text-violet-300">
-				Welcome to Centryz
-			</h1>
+		<main className="bg-blue-75 relative min-h-screen w-screen overflow-hidden">
+			<Hero />
+
+			<section className="z-0 min-h-screen bg-blue-500"></section>
 		</main>
 	);
 };
